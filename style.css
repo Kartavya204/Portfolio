@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+
+    background: white;
+    /* #9c97f1 ;
+            height: 1.2px;
+            margin: 60px 84px;
+            position: relative;
+           top: 50%;
+           left:50%;
+           transform: translate(-50%,-50%);*/
+    height: 2px;
+    margin: 56px 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 2.4rem;
+    /*3rem*/
+
+
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(153, 153, 226);
+}
+
+.btn1 {
+    padding: 12px;
+    position: absolute;
+    left: -1px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 80%;
+
+
+
+}
+
+.purple {
+    color: rgb(117, 14, 214);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(117, 14, 214);
+}
+
+.secondSection {
+    max-width: 80vh;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    text-align: auto;
+    align-items: center;
+
+}
+
+.secondSection .box {
+    background: white;
+    width: 300%;
+    height: 2px;
+    margin: 56px 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secondSection h2 {
+    font-size: 2rem;
+
+    position: relative;
+    left: -80%;
+}
+
+.secondSection h3 {
+    font-size: 2rem;
+
+    position: relative;
+    left: -24%;
+}
+
+.secondSection .box2 {
+    background: white;
+    width: 150%;
+    height: 4px;
+    margin: 56px 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 4px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.secondSection .ex-image {
+    width: 35px;
+    position: relative;
+    top: -24px;
+    left: -25px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    left: -30px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    left: -30px;
+    color: gray;
+    width: 150px;
+    font-size: 15px;
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 60px;
+    left: -30px;
+    width: 150px;
+
+}
+
+.secondSection .ex-image2 {
+    width: 35px;
+    position: relative;
+    top: -35px;
+    left: -18px;
+}
+
+.secondSection .content {
+    align-items: center;
+
+}
+
+.myimage {
+    float: left;
+    width: 300px;
+    position: relative;
+    top: -24px;
+    left: -300px;
+}
+
+.p {
+    width: auto;
+    top: -24px;
+    left: -24px;
+
+
+}
+
+.pos_con {
+    position: absolute;
+    width: 60%;
+
+}
+
+
+.image-top {
+    width: 25px;
+    position: relative;
+    top: -24px;
+    left: -25px;
+}
+
+.text-gray1 {
+    color: gray;
+    bottom: 50px;
+    position: relative;
+    left: -24%;
+
+
+}
+
+.secondSection ul {
+    position: relative;
+    top: 60px;
+}
+
+.secondSection ul li {
+    font-weight: bold;
+    position: relative;
+
+    bottom: -30px;
+    padding: 10px;
+    width: auto;
+
+    left: -400px;
+
+}
+
+.bg2 {
+    float: right;
+    width: 500px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+
+}
+
+footer {
+    background-color: #141328;
+
+}
+
+.footer {
+    display: flex;
+    padding: auto;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 300px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
